@@ -1,6 +1,6 @@
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
     <!-- Navbar Brand-->
-    <a class="navbar-brand ps-3" href="/admin">Admin</a>
+    <a class="navbar-brand ps-3" href="/admin">Peminjaman Alat</a>
 
     <!-- Sidebar Toggle-->
     <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle">
@@ -27,8 +27,6 @@
             </a>
 
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/admin/activity-logs">Activity Log</a></li>
-                <li><a class="dropdown-item" href="/admin/profile">Profile</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
                     <a class="dropdown-item" href="{{ route('logout') }}"
